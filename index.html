@@ -8,6 +8,33 @@
     <title>Expense Tracker</title>
 </head>
 <body>
+    <form action="">
+        <section class="container">
+            <table class="t-expenses">
+                <tr>
+                    <th>EXPENSES</th>
+                    <th>AMOUNT</th>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="text" placeholder="Expense Name" class="expense">
+                    </td>
+                    <td>
+                        <input type="text" placeholder="Amount" class="amount">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" >
+                        <input type="button" class="btnAdd" value="Add Expense"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" class="total">Total Expenses</td>
+                </tr>
+                <td colspan="2" class="total-exp">-</td>
+            </table>
+        </section>
+    </form>
     <script src="src/script.js"></script>
 </body>
 </html>
