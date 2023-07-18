@@ -9,11 +9,11 @@ function exp_amt_element(expense,amount) {
     else{
         alertext.hide();
         return `<tr class=new-row>
-        <th class=exp>${expense}</th>
-        <th class=amnt>$ ${amount}</th>
-        <th>        
+        <td class=exp>${expense}</td>
+        <td class=amnt>$ ${amount}</td>
+        <td>        
           <span class="remove">&#128465</span>
-        </th>
+        </td>
         </tr>`
     }
     
