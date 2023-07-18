@@ -10,29 +10,37 @@
 <body>
     <form action="">
         <section class="container">
-            <table class="t-expenses">
+            <table id="t-expenses">
                 <tr>
                     <th>EXPENSES</th>
                     <th>AMOUNT</th>
                 </tr>
                 <tr>
                     <td>
-                        <input type="text" placeholder="Expense Name" class="expense">
+                        <input type="text" placeholder="Expense Name" id="expense">                    
                     </td>
                     <td>
-                        <input type="text" placeholder="Amount" class="amount">
+                        <input type="text" placeholder="Amount" id="amount">
                     </td>
+                </tr>
+                <tr>
+                    <th>
+                        <div id="txt">Cannot input empty fields!</div>
+                    </th>
                 </tr>
                 <tr>
                     <td colspan="2" >
-                        <input type="button" class="btnAdd" value="Add Expense"/>
+                        <input type="button" id="btnAdd" value="Add Expense"/>
                     </td>
-                </tr>
-                <tr>
-                    <td colspan="2" class="total">Total Expenses</td>
-                </tr>
-                <td colspan="2" class="total-exp">-</td>
+                </tr>                
             </table>
+            <div>
+                <div class="total">
+                    Total Expenses
+                    <br>
+                    <div id="total-exp">_</div>
+                </div>
+            </div>
         </section>
     </form>
     <script src="src/script.js"></script>
