@@ -1,0 +1,55 @@
+.container{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    
+}
+.t-expenses{
+    background-color: rgb(133, 133, 193);
+    height:auto;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    padding:50px;
+    border-radius:25px;
+}
+tbody{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    align-items:center
+}
+tr{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+th{
+    font-size: 24px;
+    color:#152b37;
+}
+td .btnAdd{
+    width: 100%;
+    padding: 15px;
+}
+input{
+    padding:15px;    
+}
+.btnAdd{
+    background-color: #152b37; 
+    border: none;
+    color: white;
+    padding: 15px 0px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    
+}
+.total{
+    font-size: 24px;
+}
