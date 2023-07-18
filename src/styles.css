@@ -55,7 +55,7 @@ input{
 #txt{
     display: none;
     color:yellow;
-    size: 15px;
+    size: 10px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background-color: rgb(99, 99, 153);
     padding: 10px;
@@ -77,10 +77,11 @@ input{
     background-color:#4c606a;
     margin-top: 20px;
     border-radius: 25px;
-    width: 100%;
+    width:300px;
     padding:10px;
     color:aliceblue;
     text-align: center;
+    
 }
 .new-row{
     background-color:  rgb(99, 99, 153);
